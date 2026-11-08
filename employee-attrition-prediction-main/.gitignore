@@ -1,0 +1,199 @@
+# ================================================
+# FILES TO IGNORE - Internal Team Documentation
+# ================================================
+
+# Internal team files (not for GitHub)
+commandsgit.txt
+GUIDE_PRESENTATION.md
+workflow.md
+
+# Project summary & update files (internal reference)
+PROJECT_SUMMARY.md
+.github-ready-summary.md
+UPDATE_SUMMARY.md
+FINAL_README_UPDATE.md
+check-git-status.sh
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# Data Files (large datasets - ignore by default)
+data/*.csv
+data/*.xlsx
+data/*.parquet
+data/*.json
+data/*.txt
+*.db
+*.sqlite
+*.sqlite3
+
+# BUT keep small sample datasets for demonstration
+!data/sample_*.csv
+!data/sample_*.json
+
+# Trained Models & Serialized Files
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.onnx
+*.pkl
+*.joblib
+*.h5
+
+# Logs & Temporary Files
+*.log
+logs/
+*.tmp
+*.temp
+tmp/
+temp/
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.key
+credentials.json
+config/secrets.yml
+
+# Coverage & Testing
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Documentation builds
+docs/_build/
+site/
+
+# Distribution
+*.manifest
+*.spec
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Flask/Django
+instance/
+.webassets-cache
+*.sqlite3
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# ================================================
+# REPORTS - Keep visualizations, ignore text reports
+# ================================================
+
+# Ignore generated text reports (can be regenerated)
+reports/*.txt
+reports/*.log
+reports/*.html
+reports/*.pdf
+
+# Keep JSON results for metrics demonstration
+!reports/*.json
+
+# Keep all images/plots for portfolio demonstration
+!reports/*.png
+!reports/*.jpg
+!reports/*.jpeg
+!reports/*.svg
+
+# Keep CSV comparisons
+!reports/*.csv
+
+# Ignore plots subdirectory if exists
+reports/plots/
